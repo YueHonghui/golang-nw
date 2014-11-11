@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/lonnc/golang-nw"
+	"github.com/YueHonghui/golang-nw"
 	"net/http"
 )
 
