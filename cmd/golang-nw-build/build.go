@@ -3,7 +3,7 @@ package main
 import (
 	"archive/zip"
 	"flag"
-	"github.com/lonnc/golang-nw/build"
+	"github.com/YueHonghui/golang-nw/build"
 	"os"
 	"path/filepath"
 )
