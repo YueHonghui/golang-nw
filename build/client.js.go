@@ -67,7 +67,6 @@ function startClient(channel, nodeWebkitAddr, args) {
 
 	var env = process.env;
 	env['{{ .EnvVar }}'] = nodeWebkitAddr;
-	console.error(process.execPath);
 	env['EXECPATH'] = process.execPath;
 	
     var p = childProcess.spawn(exe, args, {env: env});
